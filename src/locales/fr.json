@@ -1,0 +1,243 @@
+{
+    "main-page": {
+        "content": "Domicile",
+        "text": "La société SpeedTrip a été fondée en 2007 suite à une grande passion pour l'industrie automobile. Depuis lors, nous louons constamment nos véhicules pour votre confort et votre plaisir. Profitez de notre offre."
+    },
+    "alter": {
+        "admin": "Vous n'êtes pas autorisé à utiliser cette option !"
+    },
+    "nav": {
+        "main-page": "Domicile",
+        "auto": "Voitures",
+        "klient": "Clients",
+        "wypozyczenie": "Locations",
+        "wypozyczalnia": "Location"
+    },
+    "list": {
+        "actions": {
+            "title": "Actions",
+            "details": "Des détails",
+            "edit": "Éditer",
+            "delete": "Supprimer",
+            "error": "Erreur:"
+        }
+    },
+    "auth": {
+        "logout": "Se déconnecter",
+        "pageTitle": "Connexion"
+    },
+    "form": {
+        "actions": {
+            "return": "Revenir",
+            "edit": "Éditer",
+            "cancel": "Annuler",
+            "add": "Ajouter",
+            "login": "Connexion"
+        },
+        "validation": {
+            "messages": {
+                "notEmpty": "Ce champ est requis",
+                "len_3_25": "Le champ doit contenir de 3 à 25 caractères",
+                "len_2_20": "Le champ doit contenir de 2 à 20 caractères",
+                "len_2_45": "Le champ doit contenir de 2 à 45 caractères",
+                "len_5_60": "Le champ doit contenir de 5 à 60 caractères",
+                "len_2_4": "Le champ doit contenir de 2 à 4 caractères",
+                "isNumber": "Le champ doit être un entier",
+                "is1800": "Le champ doit être compris entre 1800 et l'année en cours",
+                "is100_999": "Le champ doit être compris entre 100 et 999",
+                "is0_1": "Le champ doit être compris entre 0 et 1",
+                "isEmail": "Le champ doit contenir une adresse e-mail valide",
+                "isYear": "Le champ doit contenir une date au format aaaa-MM-jj (par exemple, 2000-01-01)",
+                "isFutureDate": "La date doit être dans le passé",
+                "isAfterRentDate": "La date doit être postérieure à la date de location",
+                "is18": "Le client doit avoir au moins 18 ans",
+                "formErrors": "Le formulaire contient des erreurs",
+                "isAbove0": "Le champ doit être supérieur à 0",
+                "len16": "Le champ doit contenir 16 caractères",
+                "len6": "Le champ doit contenir 6 caractères"
+            }
+        }
+    },
+    "auto": {
+        "fields": {
+            "producent": "Producteur",
+            "model": "Modèle",
+            "rok_produkcji": "Année de production",
+            "kolor": "Couleur",
+            "moc_silnika": "Puissance du moteur",
+            "wypozyczalnia": "De location"
+        },
+        "list": {
+            "title": "Voitures",
+            "addNew": "Ajouter un nouveau véhicule",
+            "noData": "Pas de véhicules dans la base",
+            "pageTitle": "Liste des véhicules",
+            "loading" : "Chargement des données du véhicule",
+            "details-title": "Les détails du véhicule"
+        },
+        "form": {
+            "wypozyczenia": "Historique de location",
+            "add": {
+                "pageTitle": "Ajouter une voiture",
+                "btnLabel": "Ajouter une voiture",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Voiture ajoutée avec succès"
+                }
+            },
+            "edit": {
+                "pageTitle": "Édition de véhicule",
+                "btnLabel": "Sauvegarder les modifications",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Voiture mise à jour avec succès"
+                }
+            }
+        }
+    },
+    "klient": {
+        "fields": {
+            "imie": "Le prénom",
+            "nazwisko": "Nom",
+            "email": "E-mail",
+            "data_urodzenia": "Date de naissance",
+            "password": "Mot de passe"
+        },
+        "list": {
+            "title": "Clients",
+            "addNew": "Ajouter un nouveau client",
+            "noData": "Aucun client dans la base de données",
+            "pageTitle": "Liste de clients",
+            "loading" : "Téléchargement des données client",
+            "details-title": "Détails du client"
+        },
+        "form": {
+            "wypozyczenia": "Historique de location",
+            "portfele": "Portefeuilles",
+            "add": {
+                "pageTitle": "Ajout d'un client",
+                "btnLabel": "Ajouter un client",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Client ajouté avec succès"
+                }
+            },
+            "edit": {
+                "pageTitle": "Modification des détails du client",
+                "btnLabel": "Sauvegarder les modifications",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Client mis à jour avec succès"
+                }
+            }
+        }
+    },
+    "wypozyczenie": {
+        "fields": {
+            "data_wypozyczenia": "Date du prêt",
+            "data_zwrotu": "Date de retour",
+            "klient": "Client",
+            "auto": "Auto"
+        },
+        "list": {
+            "title": "Locations",
+            "addNew": "Ajouter une nouvelle location",
+            "noData": "Aucune location dans la base de données",
+            "pageTitle": "Liste des locations",
+            "loading" : "Chargement des données de location",
+            "details-title": "Détails de la location"
+        },
+        "form": {
+            "wypozyczenia": "Locations",
+            "add": {
+                "pageTitle": "Ajouter une location",
+                "btnLabel": "Ajouter une location",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Location ajoutée avec succès"
+                }
+            },
+            "edit": {
+                "pageTitle": "Modifier une location",
+                "btnLabel": "Sauvegarder les modifications",
+                "confirm": {
+                    "header": "Validation de l'opération",
+                    "text": "Location mise à jour avec succès"
+                }
+            },
+            "placeholder": {
+                "klient" : "--- Choisissez le client ---",
+                "auto": "--- Choisissez un véhicule ---",
+                "wypozyczalnia": "--- Sélectionnez les locations ---"
+            }
+        }
+    },
+    "portfel": {
+        "fields": {
+            "nr_karty": "Numéro de carte",
+            "saldo_konta": "Solde du compte"
+        },
+        "list": {
+            "title": "Portefeuilles",
+            "addNew": "Ajouter un nouveau portefeuille",
+            "noData": "Aucun portefeuille dans la base de données",
+            "pageTitle": "Liste des portefeuilles",
+            "loading" : "Chargement des données du portefeuille",
+            "details-title": "Détails du portefeuille"
+        },
+        "form": {
+            "wypozyczenia": "Locations",
+            "add": {
+                "pageTitle": "Ajouter un portefeuille",
+                "btnLabel": "Ajouter un portefeuille",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Modifier le portefeuille",
+                "btnLabel": "Enregistrer les modifications",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    },
+    "wypozyczalnia": {
+        "fields": {
+            "ulica": "Rue",
+            "numer": "Nombre",
+            "kod": "Code",
+            "miasto": "Ville"
+        },
+        "list": {
+            "title": "Magasin de location",
+            "addNew": "Ajouter une nouvelle location",
+            "noData": "Aucune location dans la base de données dans la base de données",
+            "pageTitle": "Liste des locations",
+            "loading" : "Chargement des données de location",
+            "details-title": "Détails de la location"
+        },
+        "form": {
+            "wypozyczenia": "Locations",
+            "add": {
+                "pageTitle": "Ajouter des locations",
+                "btnLabel": "Ajouter une location",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Modifier la location",
+                "btnLabel": "Enregistrer les modifications",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    }
+}

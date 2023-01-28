@@ -1,0 +1,244 @@
+{
+	"main-page": {
+		"content": "Main Page",
+        "text": "The SpeedTrip company was founded in 2007 as a result of a great passion for the automotive industry. Since then, we have been constantly renting our vehicles for your convenience and fun. Take advantage of our offer."
+	},
+    "alter": {
+        "admin": "You are not authorized to use this option!"
+    },
+	"nav": {
+		"main-page": "Main page",
+		"auto": "Cars",
+        "klient": "Clients",
+        "wypozyczenie": "Rents",
+        "wypozyczalnia": "Rental"
+	},
+	"list": {
+		"actions": {
+			"title": "Actions",
+			"details": "Details",
+			"edit": "Edit",
+			"delete": "Delete",
+            "error": "Error:"
+		}
+	},
+    "auth": {
+        "logout": "Log out",
+        "pageTitle": "Logging"
+    },
+	"form": {
+		"actions": {
+			"return": "Return",
+			"edit": "Edit",
+			"cancel": "Cancel",
+            "add": "Add",
+            "login": "Log in"
+		},
+        "validation": {
+            "messages": {
+                "notEmpty": "The field is required",
+                "len_3_25": "The field should contain from 3 to 25 characters",
+                "len_2_20": "The field should contain from 2 to 20 characters",
+                "len_2_45": "The field should contain from 2 to 45 characters",
+                "len_5_60": "The field should contain from 5 to 60 characters",
+                "len_2_4": "The field should contain from 2 to 4 characters",
+                "isNumber": "The field should be an integer",
+                "is1800": "The field should be in the range of 1800 to the current year",
+                "is100_999": "The field should be in the range of 100 to 999",
+                "is0_1": "The field should be in the range of 0 to 1",
+                "isEmail": "The field should contain a valid email address",
+                "isYear": "The field should contain a date in the format yyyy-MM-dd (e.g. 2000-01-01)",
+                "isFutureDate": "The date should be in the past",
+                "isAfterRentDate": "The date should be after the rental date",
+                "is18": "The customer must be at least 18 years old",
+                "formErrors": "The form contains errors",
+                "isAbove0": "The field should be greater than 0",
+                "len16": "The field should be 16 characters long",
+                "len6": "The field should be 6 characters long"
+            }
+        }
+	},
+    "auto": {
+        "fields": {
+            "producent": "Producer",
+            "model": "Model",
+            "rok_produkcji": "Year of production",
+            "kolor": "Color",
+            "moc_silnika": "Engine power",
+            "wypozyczalnia": "Rental"
+        },
+        "list": {
+            "title": "Cars",
+            "addNew": "Adding a new car",
+            "noData": "No cars in database",
+            "pageTitle": "Car list",
+            "loading" : "Loading cars data",
+            "details-title": "Car details"
+        },
+        "form": {
+            "wypozyczenia": "Rent history",
+            "add": {
+                "pageTitle": "Adding car",
+                "btnLabel": "Add car",
+                "confirm": {
+                    "header": "Confirmation",
+					"text": "The car has been successfully created"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edit car",
+                "btnLabel": "Save changes",
+                "confirm": {
+                    "header": "Confirmation",
+                    "text": "The car has been successfully edited"
+                }
+            }
+        }
+    },
+    "klient": {
+        "fields": {
+            "imie": "First name",
+            "nazwisko": "Second name",
+            "email": "Email",
+            "data_urodzenia": "Birth date",
+            "password": "Password"
+        },
+        "list": {
+            "title": "Clients",
+            "addNew": "Adding new client",
+            "noData": "No clients in datebase",
+            "pageTitle": "Client list",
+            "loading" : "Loading clients data",
+            "details-title": "Client details"
+        },
+        "form": {
+            "wypozyczenia": "Rent history",
+            "portfele": "Wallets",
+            "add": {
+                "pageTitle": "Adding new client",
+                "btnLabel": "Add client",
+                "confirm": {
+                    "header": "Confirmation",
+                    "text": "The client has been successfully created"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edit car",
+                "btnLabel": "Save changes",
+                "confirm": {
+                    "header": "Confirmation",
+                    "text": "The client has been successfully edited"
+                }
+            }
+        }
+    },
+    "wypozyczenie": {
+        "fields": {
+            "data_wypozyczenia": "Rent date",
+            "data_zwrotu": "Return date",
+            "klient": "Client",
+            "auto": "Car"
+        },
+        "list": {
+            "title": "Rent",
+            "addNew": "Adding new rent",
+            "noData": "No rents in datebase",
+            "pageTitle": "Rent list",
+            "loading" : "Loadind rent data",
+            "details-title": "Rent details"
+        },
+        "form": {
+            "wypozyczenia": "Rents",
+            "add": {
+                "pageTitle": "Adding new rent",
+                "btnLabel": "Add rent",
+                "confirm": {
+                    "header": "Confirmation",
+                    "text": "The rent has been successfully created"
+                }
+            },
+            "edit": {
+                "pageTitle": "Rent edit",
+                "btnLabel": "Save changes",
+                "confirm": {
+                    "header": "Confirmation",
+                    "text": "The rent has been successfully edited"
+                }
+            },
+            "placeholder": {
+                "klient" : "--- Choose client ---",
+                "auto": "--- Choose car ---",
+                "wypozyczalnia": "--- Choose rental ---"
+            }
+        }
+    },
+    "portfel": {
+        "fields": {
+            "nr_karty": "Card number",
+            "saldo_konta": "Account balance"
+        },
+        "list": {
+            "title": "Wallets",
+            "addNew": "Add new wallet",
+            "noData": "No wallets in database",
+            "pageTitle": "List of wallets",
+            "loading" : "Loading wallet data",
+            "details-title": "Wallet Details"
+        },
+        "form": {
+            "wypozyczenia": "Rents",
+            "add": {
+                "pageTitle": "Adding a wallet",
+                "btnLabel": "Add wallet",
+                "confirm": {
+                    "header": "Confirm operation",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edit wallet",
+                "btnLabel": "Save changes",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    },
+    "wypozyczalnia": {
+        "fields": {
+            "ulica": "Street",
+            "numer": "Numeber",
+            "kod": "Code",
+            "miasto": "City"
+        },
+        "list": {
+            "title": "Rentals",
+            "addNew": "Adding a new rental",
+            "noData": "No rentals in datebase",
+            "pageTitle": "Rental list",
+            "loading" : "Loading rental data",
+            "details-title": "Details of the rental"
+        },
+        "form": {
+            "wypozyczenia": "rents",
+            "add": {
+                "pageTitle": "Adding a new rental",
+                "btnLabel": "Add rental",
+                "confirm": {
+                    "header": "Confirm operation",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edit rental",
+                "btnLabel": "Save changes",
+                "confirm": {
+                    "header": "Edit rental",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    }
+}
+

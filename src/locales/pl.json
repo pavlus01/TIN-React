@@ -1,0 +1,243 @@
+{
+    "main-page": {
+        "content": "Strona główna",
+        "text": "Firma SpeedTrip powstała w 2007 roku w wyniku wielkiej pasji do motoryzacji. Od tego czasu nieustannie wypożyczamy nasze pojazdy dla Państwa wygody i dobrej zabawy. Zapraszamy doskorzystania z naszej oferty."
+    },
+    "alter": {
+        "admin": "Nie masz uprawnień do skorzystania z tej opcji!"
+    },
+    "nav": {
+        "main-page": "Strona główna",
+        "auto": "Samochody",
+        "klient": "Klienci",
+        "wypozyczenie": "Wypożyczenia",
+        "wypozyczalnia": "Wypożyczalnia"
+    },
+    "list": {
+        "actions": {
+            "title": "Akcje",
+            "details": "Szczegóły",
+            "edit": "Edytuj",
+            "delete": "Usuń",
+            "error": "Błąd:"
+        }
+    },
+    "auth": {
+        "logout": "Wyloguj",
+        "pageTitle": "Logowanie"
+    },
+    "form": {
+        "actions": {
+            "return": "Powrót",
+            "edit": "Edytuj",
+            "cancel": "Anuluj",
+            "add": "Dodaj",
+            "login": "Zaloguj"
+        },
+        "validation": {
+            "messages": {
+                "notEmpty": "Pole jest wymagane",
+                "len_3_25": "Pole powinno zawierać od 3 do 25 znaków",
+                "len_2_20": "Pole powinno zawierać od 2 do 20 znaków",
+                "len_2_45": "Pole powinno zawierać od 2 do 45 znaków",
+                "len_5_60": "Pole powinno zawierać od 5 do 60 znaków",
+                "len_2_4": "Pole powinno zawierać od 2 do 4 znaków",
+                "isNumber": "Pole powinno być liczbą całkowitą",
+                "is1800": "Pole powinno być w zakresie od 1800 do aktualnego roku",
+                "is100_999": "Pole powinno być w zakresie od 100 do 999",
+                "is0_1": "Pole powinno być w zakresie od 0 do 1",
+                "isEmail": "Pole powinno zawierać prawidłowy adres email",
+                "isYear": "Pole powinno zawierać datę w formacie yyyy-MM-dd (np. 2000-01-01)",
+                "isFutureDate": "Data powinna być z przeszłości",
+                "isAfterRentDate": "Data powinna być po dacie wypożyczenia",
+                "is18": "Klient musi mieć przynajmniej 18 lat",
+                "formErrors": "Formularz zawiera błędy",
+                "isAbove0": "Pole powinno być większe od 0",
+                "len16": "Pole powinno mieć 16 znaków",
+                "len6": "Pole powinno mieć 6 znaków"
+            }
+        }
+    },
+    "auto": {
+        "fields": {
+            "producent": "Producent",
+            "model": "Model",
+            "rok_produkcji": "Rok produkcji",
+            "kolor": "Kolor",
+            "moc_silnika": "Moc silnika",
+            "wypozyczalnia": "Wypożyczalnia"
+        },
+        "list": {
+            "title": "Auta",
+            "addNew": "Dodaj nowy pojazd",
+            "noData": "Brak pojazdów w bazie",
+            "pageTitle": "Lista pojazdów",
+            "loading" : "Ładowanie danych pojazdu",
+            "details-title": "Szczegóły pojazdu"
+        },
+        "form": {
+            "wypozyczenia": "Historia wypożyczeń",
+            "add": {
+                "pageTitle": "Dodawanie auta",
+                "btnLabel": "Dodaj auto",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano auto"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edycja pojazdu",
+                "btnLabel": "Zapisz zmiany",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano auto"
+                }
+            }
+        }
+    },
+    "klient": {
+        "fields": {
+            "imie": "Imię",
+            "nazwisko": "Nazwisko",
+            "email": "Email",
+            "data_urodzenia": "Data urodzenia",
+            "password": "Hasło"
+        },
+        "list": {
+            "title": "Klienci",
+            "addNew": "Dodaj nowego klienta",
+            "noData": "Brak klientów w bazie",
+            "pageTitle": "Lista klientów",
+            "loading" : "Ładowanie danych klientów",
+            "details-title": "Szczegóły klienta"
+        },
+        "form": {
+            "wypozyczenia": "Historia wypożyczeń",
+            "portfele": "Portfele",
+            "add": {
+                "pageTitle": "Dodawanie klienta",
+                "btnLabel": "Dodaj klienta",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano klienta"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edycja dane klienta",
+                "btnLabel": "Zapisz zmiany",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano klienta"
+                }
+            }
+        }
+    },
+    "wypozyczenie": {
+        "fields": {
+            "data_wypozyczenia": "Data wypożyczenia",
+            "data_zwrotu": "Data zwrotu",
+            "klient": "Klient",
+            "auto": "Auto"
+        },
+        "list": {
+            "title": "Wypożyczenia",
+            "addNew": "Dodaj nowe wypożyczenie",
+            "noData": "Brak wypożyczeń w bazie",
+            "pageTitle": "Lista wypożyczeń",
+            "loading" : "Ładowanie danych wypożyczeń",
+            "details-title": "Szczegóły wypożyczenia"
+        },
+        "form": {
+            "wypozyczenia": "Wypożyczenia",
+            "add": {
+                "pageTitle": "Dodawanie wypożyczenia",
+                "btnLabel": "Dodaj wypożyczenie",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edycja wypożyczenia",
+                "btnLabel": "Zapisz zmiany",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            },
+            "placeholder": {
+                "klient" : "--- Wybierz klienta ---",
+                "auto": "--- Wybierz pojazd ---",
+                "wypozyczalnia": "--- Wybierz wypożyczalnie ---"
+            }
+        }
+    },
+    "portfel": {
+        "fields": {
+            "nr_karty": "Numer karty",
+            "saldo_konta": "Saldo konta"
+        },
+        "list": {
+            "title": "Portfele",
+            "addNew": "Dodaj nowy portfel",
+            "noData": "Brak portfeli w bazie",
+            "pageTitle": "Lista portfeli",
+            "loading" : "Ładowanie danych portfeli",
+            "details-title": "Szczegóły portfeli"
+        },
+        "form": {
+            "wypozyczenia": "Wypożyczenia",
+            "add": {
+                "pageTitle": "Dodawanie portfela",
+                "btnLabel": "Dodaj portfel",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edycja portfela",
+                "btnLabel": "Zapisz zmiany",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    },
+    "wypozyczalnia": {
+        "fields": {
+            "ulica": "Ulica",
+            "numer": "Numer",
+            "kod": "Kod",
+            "miasto": "Miasto"
+        },
+        "list": {
+            "title": "Wypożyczalnia",
+            "addNew": "Dodaj nową wypożyczalnię",
+            "noData": "Brak wypożyczalni w bazie w bazie",
+            "pageTitle": "Lista wypożyczalni",
+            "loading" : "Ładowanie danych wypozyczalni",
+            "details-title": "Szczegóły wypozyczalni"
+        },
+        "form": {
+            "wypozyczenia": "Wypożyczenia",
+            "add": {
+                "pageTitle": "Dodawanie wypozyczalni",
+                "btnLabel": "Dodaj wypozyczalnię",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie dodano wypożyczenie"
+                }
+            },
+            "edit": {
+                "pageTitle": "Edycja wypozyczalni",
+                "btnLabel": "Zapisz zmiany",
+                "confirm": {
+                    "header": "Potwierdzenie operacji",
+                    "text": "Pomyślnie zaktualizowano wypożyczenie"
+                }
+            }
+        }
+    }
+}
